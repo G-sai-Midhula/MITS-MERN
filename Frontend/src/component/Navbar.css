@@ -1,0 +1,27 @@
+.navbar {
+  background-color: lightpink;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  background-color: rgb(111, 168, 237);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.navbar li:hover {
+  background-color: rgb(152, 167, 234);
+  cursor: pointer;
+}
+.link{
+  text-decoration: none;
+  color: black;
+}
