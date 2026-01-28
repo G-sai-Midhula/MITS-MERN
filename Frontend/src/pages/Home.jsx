@@ -1,17 +1,16 @@
-import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
-const Home = ({name}) => {
-  const navigate = useNavigate();
-  const handleClick=()=>{
-    navigate('/about')
-  }
+const Home = ({ name }) => {
   return (
     <div>
       <h2>{name}</h2>
-      <button onClick={handleClick}>Go to about page</button>
-    </div>
-  )
-}
 
-export default Home
+      <Link to="/about">
+        <button>Go to About Page</button>
+      </Link>
+    </div>
+  );
+};
+
+export default Home;
