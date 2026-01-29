@@ -14,6 +14,8 @@ import Login from './Auth/Login'
 import Signup from './Auth/Signup'
 import { Route, Routes } from 'react-router-dom'
 import UseReducer from './Hooks/UseReducer'
+import UseMemo from './Hooks/UseMemo'
+import UseCallback from './Hooks/UseCallback'
 
 const App = () => {
   const name = "Vikraam";   // ✅ DEFINE NAME HERE
@@ -37,6 +39,8 @@ const App = () => {
           <Route path='useeffectapi' element={<UseEffectApi />} />
           <Route path='useref' element={<UseRef />} />
           <Route path='usereducer' element={<UseReducer />} />
+          <Route path='usememo' element={<UseMemo />} />
+          <Route path='usecallback' element={<UseCallback />} />
         </Route>
       </Routes>
     </div>
