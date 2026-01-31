@@ -6,7 +6,7 @@ const UseCallback = () => {
     const Newfun = useCallback(()=>
     {
 
-    },[count]);
+    },[]);
   return (
     <div>
         <Header newFun={Newfun}/>
